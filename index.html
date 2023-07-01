@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Встреча с подписчиками</title>
+</head>
+<body>
+
+    <section class="cover">
+        <div class="container">
+            <div class="cover__wrapper">
+                <div class="infos">
+                    <div class="info">
+                        <div class="info__title">Алматы</div>
+                        <div class="info__text">место</div>
+                    </div>
+                    <div class="info">
+                        <div class="info__title">8 июля</div>
+                        <div class="info__text">дата</div>
+                    </div><div class="info">
+                        <div class="info__title">2 часа</div>
+                        <div class="info__text">продолжительность</div>
+                    </div><div class="info">
+                        <div class="info__title">Свободный</div>
+                        <div class="info__text">вход</div>
+                    </div>
+                </div>
+                <div class="cover__title-block">
+                    <div class="cover__title">Встреча</div>
+                    <div class="cover__subtitle"> c подписчисками</div>
+                </div>
+                <div class="cover__text-wrapper">
+                    <div class="cover__text-block">
+                        <p class="cover__text">Когда я прилетаю в Казахстан, a там плюс три часа времени 
+                            от меня, фактически я как-будто прилетал в будущее. 
+                            <br>И знайте, что в будущем  живут одни казахи! </p>
+                        <p class="cover__text">Хочу встретиться co всеми кто меня знает и поделится своим опытом. Приходите будет полезно и весело</p>
+                    </div>
+                    <div class="cover__autor">
+                        <p>A. Нестеренко</p>
+                    </div>
+                </div>
+                <button class="cover__btn modal__btn-active" data-modal-active="modal">
+                    <p>Забронировать Место</p>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="modal__wrapper" data-modal="modal">
+        <div class="modal">
+            <form action="" class="form" method="post">
+                <div class="modal__btn-close">
+                    <img src="img/cover/close2.svg" alt="X">
+                </div>
+                <div class="title-section">
+                    Внесите свои данные в полях ниже<br>
+                    <span>чтобы забронировать место для участия в ивенте</span>
+                </div>
+                <div class="modal_inputs">
+                    <input type="text" placeholder="Имя" name="name" value class="modal__input" required>
+                    <input type="email" placeholder="Email" name="email" value class="modal__input" required>
+                    <input type="tel" placeholder="Телефон" name="phone" value class="modal__input" required>
+                </div>
+                <button class="btn">Забронировать Место</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
